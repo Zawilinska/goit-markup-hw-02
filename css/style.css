@@ -3,6 +3,7 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
 --color-blue: #2196F3; 
 --color-white: #FFFFFF;
+--color-black: #212121
 }
 body {
 font-family: 'Roboto', sans-serif;  
@@ -178,18 +179,80 @@ h3 {
   line-height: 18,75px;
   font-weight: 500;
 }
-.button-portfolio {
+/*.button-portfolio {
   font-size: 16px;
   line-height: 26px;
   width: 77px;
   height: 26px;
-  font-weight: 500;  
+  font-weight: 500; 
+  
+  font-family: inherit;
+
+  
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border-radius: 4px;
+  border-style: none;
+  background-color: #F5F4FA;
+  padding: 10px 41px;
+  margin-top: 30px;
+} */
+.button-portfolio-all {
+  background-color: #F5F4FA;
+  cursor: pointer;
+  border-style: none;
+  color: var(--color-black);
+  font-family: inherit;
+  font-weight: 500;
+  border-radius: 4px;
+  width: 121px;
+  height: 38px;
+}
+.button-portfolio-page {
+  background-color: #F5F4FA;
+  cursor: pointer;
+  border-style: none;
+  color: var(--color-black);
+  font-family: inherit;
+  font-weight: 500;
+  border-radius: 4px;
+  width: 93px;
+  height: 38px;
+}
+.button-portfolio-apps {
+  background-color: #F5F4FA;
+  cursor: pointer;
+  border-style: none;
+  color: var(--color-black);
+  font-family: inherit;
+  font-weight: 500;
+  border-radius: 4px;
+  width: 114px;
+  height: 38px;
+}
+.button-portfolio-design {
+  background-color: #F5F4FA;
+  cursor: pointer;
+  border-style: none;
+  color: var(--color-black);
+  font-family: inherit;
+  font-weight: 500;
+  border-radius: 4px;
+  width: 91px;
+  height: 38px;
+}
+.button-portfolio-marketing {
+  background-color: #F5F4FA;
+  cursor: pointer;
+  border-style: none;
+  color: var(--color-black);
+  font-family: inherit;
+  font-weight: 500;
+  border-radius: 4px;
+  width: 121px;
+  height: 38px;
 }
 
-.button-all {
-  color: #FFFFFF;
- 
-}
 .adress-footer {
   font-style: normal;
   font-size: 14px;
@@ -231,4 +294,39 @@ h3 {
   border-style: none;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.button-portfolio-all:hover {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-style: none;
+}
+.button-portfolio-page:hover {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-style: none;
+}
+.button-portfolio-apps:hover {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-style: none;
+}
+.button-portfolio-design:hover {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-style: none;
+}
+.button-portfolio-marketing:hover {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-style: none;
 }
