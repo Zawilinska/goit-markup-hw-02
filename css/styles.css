@@ -1,0 +1,191 @@
+:root {
+  --color-blue: #2196F3;
+  --color-white: #FFFFFF;
+  --color-bacground: #F5F4FA;
+  --color-gray: #757575;
+  --color-section: #2f303a;
+  --color-black: #212121;
+  --color-studio: #000000;
+
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-black)
+}
+
+.baner {
+  background-color: var(--color-section);
+  text-align: center;
+  border: 1px solid transparent;
+}
+
+.baner-text {
+  color: var(--color-white);
+  line-height: 1.36;
+  font-weight: 900;
+
+}
+
+.button-order {
+  max-width: 696px;
+  font-weight: 900;
+  line-height: 1.36;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin: auto;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.order-the-service {
+
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border-radius: 4px;
+  border-style: none;
+  background-color: var(--color-bacground);
+  padding: 10px 41px;
+}
+
+
+
+.footer {
+  background-color: var(--color-section);
+}
+
+/* logo*/
+
+.logo-web {
+  color: var(--color-blue);
+}
+
+.logo-studio-header {
+  color: var(--color-studio);
+}
+
+.logo-studio-footer {
+  color: var(--color-white);
+
+}
+
+.logo-studioweb {
+  text-decoration: none;
+  line-height: 1.19;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* logo*/
+
+.navigation {
+  line-height: 1.14;
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--color-black);
+  cursor: pointer;
+  letter-spacing: 0.02em;
+}
+
+.contact-header {
+  line-height: 1.1;
+  text-decoration: none;
+  font-weight: 500;
+  list-style: none;
+  color: var(--color-gray);
+}
+
+
+.text-lorem-ipsum {
+  line-height: 1.71;
+  font-weight: 400;
+  color: var(--color-gray);
+}
+
+.lorem-ipsum {
+  line-height: 1.17x;
+  font-weight: 700;
+}
+
+.list-style {
+  list-style: none;
+}
+
+.contact-footer {
+  text-decoration: none;
+  color: var(--color-gray);
+  line-height: 1.7;
+  font-style: normal;
+
+}
+
+h2 {
+  line-height: 1.1px;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+h3 {
+  line-height: 1.1;
+  font-weight: 500;
+  color: var(--color-black);
+}
+
+.button-portfolio {
+  display: block;
+  background-color: var(--color-bacground);
+  cursor: pointer;
+  border-style: none;
+  color: var(--color-black);
+  font-weight: 500;
+  border-radius: 4px;
+  line-height: 1.62;
+
+}
+
+.adress-footer {
+  font-style: normal;
+  line-height: 1.7;
+  color: var(--color-white);
+}
+
+.section-team {
+  background-color: #E5E5E5;
+}
+
+.categories {
+  color: var(--color-gray);
+}
+
+.position {
+  color: var(--color-gray);
+}
+
+
+.header-index:hover {
+  color: var(--color-blue)
+}
+
+.contact-header:hover {
+  color: var(--color-blue)
+}
+
+.contact-footer:hover {
+  color: var(--color-blue)
+}
+
+.order-the-service:hover {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  border-style: none;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-portfolio:hover {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
