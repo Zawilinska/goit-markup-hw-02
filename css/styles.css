@@ -105,7 +105,7 @@ body {
 }
 
 .lorem-ipsum {
-  line-height: 1.17x;
+  line-height: 1.17;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -118,7 +118,7 @@ body {
 }
 
 .about-us {
-  line-height: 1.1px;
+  line-height: 1.1;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 0.03em;
