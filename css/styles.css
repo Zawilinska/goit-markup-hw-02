@@ -14,6 +14,28 @@ body {
   color: var(--color-black)
 }
 
+.navigation {
+  line-height: 1.14;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--color-black);
+  cursor: pointer;
+  letter-spacing: 0.02em;
+}
+
+.contact-header {
+  line-height: 1.1;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  font-weight: 500;
+  list-style: none;
+  color: var(--color-gray);
+}
+
+/* Baner*/
 .baner {
   background-color: var(--color-section);
   text-align: center;
@@ -43,11 +65,9 @@ body {
 
 }
 
-.footer {
-  background-color: var(--color-section);
-}
+/* Baner*/
 
-/* logo*/
+/* Logo*/
 
 .logo-web {
   color: var(--color-blue);
@@ -72,30 +92,10 @@ body {
 
 }
 
-/* logo*/
-
-.navigation {
-  line-height: 1.14;
-  font-size: 14px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  font-weight: 500;
-  color: var(--color-black);
-  cursor: pointer;
-  letter-spacing: 0.02em;
-}
-
-.contact-header {
-  line-height: 1.1;
-  font-size: 14px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  font-weight: 500;
-  list-style: none;
-  color: var(--color-gray);
-}
+/* Logo*/
 
 
+/* Lorem impsum */
 .text-lorem-ipsum {
   line-height: 1.71;
   font-size: 14px;
@@ -111,6 +111,8 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* Lorem impsum */
+
 .list-style {
   list-style: none;
 }
@@ -121,6 +123,11 @@ body {
   font-weight: 700;
   letter-spacing: 0.03em;
   color: var(--color-black);
+}
+
+/* Our Team */
+.section-team {
+  background-color: #E5E5E5;
 }
 
 .our-team {
@@ -138,6 +145,9 @@ body {
   line-height: 1.18;
 }
 
+/* Our Team */
+
+/* Footer */
 .contact-footer {
   text-decoration: none;
   color: var(--color-gray);
@@ -156,7 +166,6 @@ body {
   text-decoration-line: underline;
 }
 
-
 .adress-footer {
   font-style: normal;
   line-height: 1.7;
@@ -164,6 +173,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-white);
 }
+
+.footer {
+  background-color: var(--color-section);
+}
+
+/* Footer */
 
 .button-portfolio {
   display: block;
@@ -176,12 +191,6 @@ body {
   line-height: 1.62;
   font-size: 16px;
   letter-spacing: 0.03em;
-}
-
-
-
-.section-team {
-  background-color: #E5E5E5;
 }
 
 .names-header {
